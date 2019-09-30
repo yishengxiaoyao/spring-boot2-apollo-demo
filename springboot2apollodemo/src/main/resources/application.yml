@@ -1,0 +1,16 @@
+
+app:
+  id: SampleApp
+apollo:
+  bootstrap:
+    enabled: true
+  meta: https://localhost:8080
+
+function:
+  switch:
+    open: false
+
+current:
+  version: v1
+server:
+  port: 9000
